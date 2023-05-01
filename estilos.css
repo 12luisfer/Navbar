@@ -1,0 +1,61 @@
+
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-size: 20px
+
+}
+
+
+.header{
+    background-color:#eddcd2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    padding: 5px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.logo img{
+    height: 100px;
+    width: auto;
+    height: 150px;
+}
+
+
+.links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+.links a{
+    color: #20c230;
+    text-decoration: none;
+}
+
+.links li a:hover{
+    color: rgb(25, 22, 22);
+}
+
+button{
+    margin-left: 20px;
+    font-weight: 900;
+    color: #b75c4e ;
+    padding: 10px 30px;
+    background: rgb(205, 163, 163);
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.header .btn :hover{
+    background-color:#010101 ;
+    color: #ddbea9;
+}
