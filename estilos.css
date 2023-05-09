@@ -1,9 +1,8 @@
-
 body{
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-size: 20px
+    font-size: 20px;
 
 }
 
@@ -59,3 +58,104 @@ button{
     background-color:#010101 ;
     color: #ddbea9;
 }
+
+
+
+
+
+
+
+
+  
+  nav a {
+	color: #0f2073;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.5s ease-in-out;
+    
+  }
+  
+  nav a:hover {
+	color: #a2b700;
+	background-color: #de0d0d;
+	padding: 10px;
+	border-radius: 5px;
+  }
+  
+
+  .presentacion {
+	background-color: #0b8ea4;
+	padding: 60px 20px;
+	text-align: center;
+  }
+  
+  .presentacion h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+
+  }
+  
+  .presentacion p {
+	font-size: 18px;
+	line-height:1.5;
+	margin-bottom: 40px;
+
+  }
+  
+  .presentacion button {
+	background-color: #0d0d0d;
+	border: none;
+	color: #FFF;
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+  }
+  
+  .presentacion button:hover {
+	background-color: #f5ac02;
+  }
+  
+  .section {
+	display: flex;
+	justify-content: space-between;
+	padding: 60px 20px;
+	background-color: #ffffff;
+  }
+  
+  .section h3 {
+	font-size: 30px;
+	margin-bottom: 40px;
+  }
+  
+  .section .imagen {
+	width: calc(33.33% - 20px);
+	text-align: center;
+	background-color: #FFF;
+	box-shadow: 0px 0px 10px rgba(95, 5, 251, 0.1);
+	padding: 40px;
+	transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .section .imagen:hover {
+	box-shadow: 0px 0px 15px rgba(250, 4, 4, 0.968);
+  }
+  
+  .section img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+  }
+  
+  .section h4 {
+	font-size: 24px;
+	margin-bottom: 20px;
+  }
+  
+  .section p {
+	font-size: 16px;
+	line-height: 1.5;
+  }
+  
+  
