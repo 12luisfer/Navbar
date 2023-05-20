@@ -22,9 +22,8 @@ body{
 }
 
 .logo img{
-    height: 100px;
-    width: auto;
-    height: 150px;
+  width: auto;
+  height: 150px;
 }
 
 
@@ -56,7 +55,7 @@ button{
 
 .header .btn :hover{
     background-color:#010101 ;
-    color: #ddbea9;
+    color: #c3b3a8;
 }
 
 
@@ -84,14 +83,14 @@ button{
   
 
   .presentacion {
-	background-color: #0b8ea4;
-	padding: 60px 20px;
+	background-color: #0fc6c0;
+	padding: 20px 10px;
 	text-align: center;
   }
   
   .presentacion h2 {
 	font-size: 36px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 
   }
   
@@ -157,5 +156,115 @@ button{
 	font-size: 16px;
 	line-height: 1.5;
   }
+
+
   
+
+/* Estilos CSS para la sección de beneficios */
+.beneficios {
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.card {
+  background-color: #714747;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #050404;
+}
+
+
+
+
+
+
+
+/* Estilos CSS para la sección de contacto y footer */
+.contacto {
+  background-color: #dd8d8d;
+  padding: 10px;
+  text-align: center;
   
+}
+
+
+.contacto h3 {
+  font-size: 30px;
+  margin-bottom: 2px;
+}
+
+.contacto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.info {
+  flex: 1;
+  text-align: left;
+}
+
+.mapa {
+  flex: 1;
+}
+
+
+
+
+
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+ .logo {
+  margin-bottom: 10px;
+}
+
+ .redes-sociales a {
+  display: inline-block;
+  margin: 0 52px;
+  text-decoration: none;
+}
+
+ .creditos {
+  font-size: 14px;
+  color: #070707;
+}
+
+.redes-sociales a{
+    width: 50px;
+
+}
+.redes-sociales img {
+  width: 100%;
+}
+
+
+
